@@ -8,6 +8,7 @@ from rest_framework import status
 
 @api_view(['GET'])
 def games_list(request):
+    # Add the code here
     return Response({"Data": "The Data will be shown here"}, status=status.HTTP_200_OK)
 
 
