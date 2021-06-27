@@ -1,0 +1,13 @@
+Sports API endpoint - takes:
+word(team or player name)
+date(if no data on that date return []
+number
+
+request data from:
+https://balldontlie.io/api/v1/games
+https://api.football-data.org/v2/competitions/{ID}/matches - needs header with API token
+
+
+return 40 match results at a time ordered by date
+pagination
+filtering
